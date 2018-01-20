@@ -1,2 +1,107 @@
-<h1>AdminViews#assign</h1>
-<p>Find me in app/views/admin_views/assign.html.erb</p>
+<h1>Assign Content</h1>
+
+<div class="dropdown">
+  <button class="btn btn-warning dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Select an Assessment Type
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" id="CNA">CNA</a>
+    <div class="dropdown-divider"></div>
+    <a class="dropdown-item" href="#">RN</a>
+    <div class="dropdown-divider"></div>
+    <a class="dropdown-item" href="#">MD</a>
+  </div>
+</div>
+
+<div class="CNA">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-5 col-sm-offset-1 list">
+				<div>
+					<h3>Assessment</h3>
+				</div>
+				<div class="item">
+					<p>Core Concept</p>
+				</div>
+				<div class="item">
+					<p>Core Concept</p>
+				</div>
+				<div class="item">
+					<p>Core Concept</p>
+				</div>
+				<div class="item KD1A">
+					<p>KD 1
+						<button id="KD1A" style="float:right" type="button" class="btn btn-default btn-sm btn-glyphicon">
+	          <span class="glyphicon glyphicon-minus"></span> 
+	        	</button> 
+	      	</p>
+				</div>
+				<div class="item KD2A">
+					<p>KD 2
+						<button id="KD2A" style="float:right" type="button" class="btn btn-default btn-sm btn-glyphicon">
+	          <span class="glyphicon glyphicon-minus"></span> 
+	        	</button> 
+					</p>
+				</div>
+				<div class="item KD3A">
+					<p>KD 3
+						<button id="KD3A" style="float:right" type="button" class="btn btn-default btn-sm btn-glyphicon">
+	          <span class="glyphicon glyphicon-minus"></span> 
+	        	</button> 
+					</p>
+				</div>
+				<div class="item KD4A">
+					<p>KD 4
+						<button id="KD4A"  style="float:right" type="button" class="btn btn-default btn-sm btn-glyphicon">
+	          <span class="glyphicon glyphicon-minus"></span> 
+	        	</button> 
+					</p>
+				</div>
+			</div>
+			<div class="col-sm-5 col-sm-offset-1 list">
+				<div>
+					<h3>Suggested Additions</h3>
+				</div>
+				<div class="item KD1B">
+					<p>KD 1
+						<button id="KD1B" style="float:right" type="button" class="btn btn-default btn-sm btn-glyphicon">
+	          <span class="glyphicon glyphicon-plus"></span> 
+	        </button> 
+					</p>
+				</div>
+				<div class="item KD2B">
+					<p>KD 2
+						<button id="KD2B" style="float:right" type="button" class="btn btn-default btn-sm btn-glyphicon">
+	          <span class="glyphicon glyphicon-plus"></span> 
+	        </button> 
+					</p>
+				</div>
+				<div class="item KD3B">
+					<p>KD 3
+						<button id="KD3B" style="float:right" type="button" class="btn btn-default btn-sm btn-glyphicon">
+	          <span class="glyphicon glyphicon-plus"></span> 
+	        </button> 
+					</p>
+				</div>
+				<div class="item KD4B">
+					<p>KD 4
+						<button id="KD4B" style="float:right" type="button" class="btn btn-default btn-sm btn-glyphicon">
+	          <span class="glyphicon glyphicon-plus"></span> 
+	        	</button> 
+					</p>
+				</div>
+			</div>
+		</div><!--end row-->
+	</div><!--end container-->
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-1 col-sm-offset-8">
+				<button type="button" class="btn btn-warning">Assign</button>
+			</div>
+			<div class="col-sm-1">
+				<button type="button" class="btn btn-warning">Save</button>
+			</div>
+		</div><!--end row-->
+	</div><!--end container-->
+</div>

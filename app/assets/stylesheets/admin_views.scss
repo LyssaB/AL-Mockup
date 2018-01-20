@@ -1,3 +1,31 @@
 // Place all the styles related to the admin_views controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+body {
+	background-color: #5fab44;
+}
+
+.CNA {
+	display: none;
+}
+
+.list {
+	background-color: #fff;
+	border: 1px solid black;
+	padding: 3px;
+}
+
+.item {
+	border: 1px solid gray;
+	height: 3em;
+}
+
+.btn-glyphicon{
+	vertical-align: middle;
+}
+
+.KD1A, .KD2A, .KD3A, .KD4A {
+	display: none;
+}
