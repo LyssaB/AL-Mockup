@@ -1,2 +1,13 @@
-<h1>AdminViews#index</h1>
-<p>Find me in app/views/admin_views/index.html.erb</p>
+<div class="container">
+	<div class="row">
+		<div class="col-sm-6">
+			<h2>Admin Views</h2>
+			<button type="button" class="btn btn-warning"><%= link_to("Dashboard", admin_views_dashboard_path) %></button>
+		</div>
+
+		<div class="col-sm-6">
+			<h2>Learner Views</h2>
+			<button type="button" class="btn btn-warning">Dashboard</button>
+		</div>
+	</div>
+</div>
