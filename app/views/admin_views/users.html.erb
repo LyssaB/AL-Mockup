@@ -1,2 +1,63 @@
-<h1>AdminViews#users</h1>
-<p>Find me in app/views/admin_views/users.html.erb</p>
+<h1>Users</h1>
+
+<div class="container">
+	<div class="row">
+		<div class="col-sm-6">
+			<input type="text" id="myInput" placeholder="Filter by date of hire, name, or job role" title="">
+		</div>
+
+		<div class="col-sm-2 col-sm-offset-2">
+			<p>Select All
+				<input class="checkbox" type="checkbox" name="select-all" id="select-all"/>
+			</p>
+			
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="col-sm-7 list">
+			<div class="item">
+				<p>A. Block
+					<input class="checkbox" type="checkbox" name="checkbox-1" id="checkbox-1"/>
+				</p>
+				
+			</div>
+			<div class="item">
+				<p>D. Person
+					<input class="checkbox" type="checkbox" name="checkbox-2" id="checkbox-2"/>
+				</p>
+				
+			</div>
+			<div class="item">
+				<p>N. Vent
+					<input class="checkbox" type="checkbox" name="checkbox-3" id="checkbox-3"/>
+				</p>
+				
+			</div>
+			<div class="item">
+				<p>O. Tannenbaum
+					<input class="checkbox" type="checkbox" name="checkbox-4" id="checkbox-4"/>
+				</p>
+				
+			</div>
+		</div>
+
+		<div class="col-sm-3 col-sm-offset2">
+			<div class="dropdown">
+				<button class="btn btn-warning dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Select an Assessment Type
+				</button>
+				<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+					<a class="dropdown-item" id="CNA-assign">CNA</a>
+					<div class="dropdown-divider"></div>
+					<a class="dropdown-item" href="#">RN</a>
+					<div class="dropdown-divider"></div>
+					<a class="dropdown-item" href="#">MD</a>
+				</div>
+			</div>
+			<button type="button" class="btn btn-warning" id="assign"><%= link_to("Assign", admin_views_dashboard_path) %></button>
+		</div>
+	</div>
+</div>

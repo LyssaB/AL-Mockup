@@ -1,2 +1,36 @@
-<h1>AdminViews#dashboard</h1>
-<p>Find me in app/views/admin_views/dashboard.html.erb</p>
+<h1>Dashboard</h1>
+<div class="container">
+	<div class="row">
+		<div col-sm-12>
+			<h2>Assessment Management</h2>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-sm-4">
+			<button type="button" class="btn btn-warning"><%= link_to("Assign Assessments", admin_views_users_path) %></button>
+		</div>
+		<div class="col-sm-4 col-sm-offset-2">
+			<button type="button" class="btn btn-warning"><%= link_to("Customize Assessments", admin_views_assign_path) %></button>
+		</div>
+	</div>
+</div>
+
+
+<div class="container">
+	<div class="row">
+		<div col-sm-12>
+			<h2>User Management</h2>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-sm-4">
+			<button type="button" class="btn btn-warning"><%= link_to("View Scores", admin_views_scores_path) %></button>
+		</div>
+		<div class="col-sm-4 col-sm-offset-2">
+			<button type="button" class="btn btn-warning"><%= link_to("User Profiles", admin_views_users_path) %></button>
+		</div>
+	</div>
+</div>
+
