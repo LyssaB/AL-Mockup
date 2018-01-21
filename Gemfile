@@ -34,7 +34,7 @@ gem 'jquery-rails'
 gem 'popper_js', '~> 1.12.9'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
-
+gem 'webpacker'
 group :production do
   gem 'pg'
 end
