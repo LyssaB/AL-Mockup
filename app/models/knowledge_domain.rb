@@ -1,0 +1,2 @@
+class KnowledgeDomain < ApplicationRecord
+end

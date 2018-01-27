@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @knowledge_domain.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @knowledge_domain.description %>
+</p>
+
+<p>
+  <strong>Score img:</strong>
+  <%= @knowledge_domain.score_img %>
+</p>
+
+<%= link_to 'Edit', edit_knowledge_domain_path(@knowledge_domain) %> |
+<%= link_to 'Back', knowledge_domains_path %>

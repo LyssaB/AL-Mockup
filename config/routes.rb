@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :knowledge_domains
   get 'admin_views/dashboard'
 
   get 'admin_views/assign'

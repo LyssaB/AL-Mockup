@@ -1,0 +1,32 @@
+<%= form_with(model: knowledge_domain, local: true) do |form| %>
+  <% if knowledge_domain.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(knowledge_domain.errors.count, "error") %> prohibited this knowledge_domain from being saved:</h2>
+
+      <ul>
+      <% knowledge_domain.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :name %>
+    <%= form.text_field :name, id: :knowledge_domain_name %>
+  </div>
+
+  <div class="field">
+    <%= form.label :description %>
+    <%= form.text_area :description, id: :knowledge_domain_description %>
+  </div>
+
+  <div class="field">
+    <%= form.label :score_img %>
+    <%= form.text_field :score_img, id: :knowledge_domain_score_img %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

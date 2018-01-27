@@ -1,0 +1,2 @@
+module KnowledgeDomainsHelper
+end
