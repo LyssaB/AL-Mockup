@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(document).on('turbolinks:load', function(){
 	//CNA Selection
 	$("#CNA").click(function(){
 		$(".CNA").show();
@@ -42,6 +42,10 @@ $(document).ready(function(){
 	$("#KD4A").click(function(){
 		$(".KD4A",).hide();
 		$(".KD4B").show();
+	});
+
+	$(function () {
+		$("[data-toggle='tooltip']").tooltip()
 	});
 });
 

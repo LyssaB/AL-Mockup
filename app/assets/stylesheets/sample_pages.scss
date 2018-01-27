@@ -1,3 +1,29 @@
 // Place all the styles related to the sample_pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.red{
+	background-color: red;
+	border: 1px solid black;
+}
+
+.yellow{
+	background-color: yellow;
+	border: 1px solid black;
+}
+
+.green{
+	background-color: green;
+	border: 1px solid black;
+}
+
+.red, .yellow, .green {
+	height: 25px;
+	width: 25px;
+}
+
+.learnerKD {
+	background-color: #fff;
+	box-shadow: 0 1px 10px 0 #666;
+	margin: 5px;
+}
