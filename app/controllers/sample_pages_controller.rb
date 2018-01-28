@@ -10,4 +10,10 @@ class SamplePagesController < ApplicationController
 
   def users
   end
+
+  def UADD
+  end
+
+  def ADRDBM
+  end
 end
