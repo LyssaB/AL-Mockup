@@ -1,9 +1,26 @@
-<h2>Course</h2>
-<div class="container-fluid">
-	<div class="row">
-		<div class="col-sm-12" data-toggle="tooltip" title="The courses will probably not be embedded, but popout like they do currently from the RLMS.">
-			<!--<iframe src="http://reliaslearning.training.reliaslearning.com/courses/267284/REL-SRC-0-UPCD_dual/dual%20SCORM_v2/alpha/index_lms_html5.html"></iframe>-->
-			<%= image_tag("UCPD.png", class: "img-responsive") %>
+<h2>Reports</h2>
+
+<div class="container">
+	<div class="row list" style="margin-bottom:3em">
+			<div class="col-sm-6 col-sm-offset-3">
+				<%= image_tag("reports.png", class: "img-responsive")%>
+			</div>
+	</div>
+
+	<div class="row list" style="margin-bottom:3em">
+		<div class="col-sm-6">
+			<%= image_tag("facilityscatterplot.png", class: "img-responsive")%>
+		</div>
+		<div class="col-sm-6">
+			<%= image_tag("userscatterplot.png", class: "img-responsive")%>
 		</div>
 	</div>
+
+	<div class="row list">
+		<div class="col-sm-6 col-sm-offset-3">
+			<p>*Images were taken from Gnosis platform. Ideally there would be a robust reporting system where admins could generate custom reports based on job roles, KD's, knowledge gaps, etc.
+			</p>
+		</div>
+	</div>
+
 </div>
