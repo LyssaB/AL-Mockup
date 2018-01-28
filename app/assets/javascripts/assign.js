@@ -10,4 +10,9 @@ $(document).on('turbolinks:load', function(){
 	$("#dashview2").click(function(){
 		$("#assessmentTaken").toggle();
 	});
+
+	$("#assessmentSubmit").click(function(){
+		$("#courseReport").show();
+		$("#course").hide();
+	});
 });

@@ -1,0 +1,154 @@
+/* line 6, /Users/lyssa/Desktop/AL/app/assets/stylesheets/admin_views.scss */
+body {
+  background-color: #5fab44;
+}
+
+/* line 10, /Users/lyssa/Desktop/AL/app/assets/stylesheets/admin_views.scss */
+.img-responsive {
+  max-width: 100%;
+}
+
+/* line 14, /Users/lyssa/Desktop/AL/app/assets/stylesheets/admin_views.scss */
+h4 .h4 {
+  font-size: 1.2 rem;
+  margin-bottom: .5rem;
+  line-height: 1.2;
+}
+
+/* line 21, /Users/lyssa/Desktop/AL/app/assets/stylesheets/admin_views.scss */
+#header_wrapper {
+  background-color: #fff;
+}
+
+/* line 25, /Users/lyssa/Desktop/AL/app/assets/stylesheets/admin_views.scss */
+.header-static-top {
+  box-shadow: 0 1px 10px 0 #666;
+}
+
+/* line 29, /Users/lyssa/Desktop/AL/app/assets/stylesheets/admin_views.scss */
+.logo {
+  max-height: 100%;
+}
+
+/* line 33, /Users/lyssa/Desktop/AL/app/assets/stylesheets/admin_views.scss */
+footer {
+  position: fixed;
+  bottom: 0;
+}
+
+/* line 38, /Users/lyssa/Desktop/AL/app/assets/stylesheets/admin_views.scss */
+.CNA {
+  display: none;
+}
+
+/* line 42, /Users/lyssa/Desktop/AL/app/assets/stylesheets/admin_views.scss */
+.list {
+  background-color: #fff;
+  border: 1px solid black;
+}
+
+/* line 47, /Users/lyssa/Desktop/AL/app/assets/stylesheets/admin_views.scss */
+.item {
+  border: 1px solid gray;
+  height: 3em;
+}
+
+/* line 52, /Users/lyssa/Desktop/AL/app/assets/stylesheets/admin_views.scss */
+.btn-glyphicon {
+  vertical-align: middle;
+}
+
+/* line 56, /Users/lyssa/Desktop/AL/app/assets/stylesheets/admin_views.scss */
+.KD1A, .KD2A, .KD3A, .KD4A {
+  display: none;
+}
+
+/* line 60, /Users/lyssa/Desktop/AL/app/assets/stylesheets/admin_views.scss */
+#myInput {
+  width: 100%;
+}
+
+/*Users page*/
+/* line 65, /Users/lyssa/Desktop/AL/app/assets/stylesheets/admin_views.scss */
+input[type=checkbox] {
+  float: right;
+  margin-right: 5px;
+}
+
+/* line 70, /Users/lyssa/Desktop/AL/app/assets/stylesheets/admin_views.scss */
+#assign {
+  margin-top: 2em;
+  display: none;
+}
+
+/* line 75, /Users/lyssa/Desktop/AL/app/assets/stylesheets/admin_views.scss */
+.box {
+  background-color: #fff;
+  padding: 2em 3em;
+  padding-bottom: 3em;
+  margin: .5em 3em 2em 3em;
+}
+/* line 5, /Users/lyssa/Desktop/AL/app/assets/stylesheets/sample_pages.scss */
+.red {
+  background-color: red;
+  border: 1px solid black;
+}
+
+/* line 10, /Users/lyssa/Desktop/AL/app/assets/stylesheets/sample_pages.scss */
+.yellow {
+  background-color: yellow;
+  border: 1px solid black;
+}
+
+/* line 15, /Users/lyssa/Desktop/AL/app/assets/stylesheets/sample_pages.scss */
+.green {
+  background-color: green;
+  border: 1px solid black;
+}
+
+/* line 20, /Users/lyssa/Desktop/AL/app/assets/stylesheets/sample_pages.scss */
+.red, .yellow, .green {
+  height: 25px;
+  width: 25px;
+}
+
+/* line 25, /Users/lyssa/Desktop/AL/app/assets/stylesheets/sample_pages.scss */
+.learnerKD {
+  background-color: #fff;
+  box-shadow: 0 1px 10px 0 #666;
+  margin: 5px;
+}
+
+/* line 31, /Users/lyssa/Desktop/AL/app/assets/stylesheets/sample_pages.scss */
+.ldashtop {
+  margin: 10px auto 10px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 1px 10px 0 #666;
+}
+
+/* line 38, /Users/lyssa/Desktop/AL/app/assets/stylesheets/sample_pages.scss */
+#assessmentNotTaken, #assessmentTaken {
+  display: none;
+}
+
+/* line 42, /Users/lyssa/Desktop/AL/app/assets/stylesheets/sample_pages.scss */
+#courseReport {
+  display: none;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
