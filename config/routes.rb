@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'sample_pages/UCPD'
+
   get 'sample_pages/ADRDBM'
 
   get 'sample_pages/UADD'

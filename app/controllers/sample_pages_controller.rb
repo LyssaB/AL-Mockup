@@ -16,4 +16,7 @@ class SamplePagesController < ApplicationController
 
   def ADRDBM
   end
+
+  def UCPD
+  end
 end
