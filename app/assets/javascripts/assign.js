@@ -14,5 +14,7 @@ $(document).on('turbolinks:load', function(){
 	$("#assessmentSubmit").click(function(){
 		$("#courseReport").show();
 		$("#course").hide();
+		$("#assessmentSubmit").hide();
+		$("#dashbutton").show();
 	});
 });
