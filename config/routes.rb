@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'sample_pages/ADRDBM'
+
+  get 'sample_pages/UADD'
+
   get 'admin_views/dashboard'
 
   get 'admin_views/assign'
