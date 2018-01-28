@@ -19,4 +19,10 @@ class SamplePagesController < ApplicationController
 
   def UCPD
   end
+
+  def UCPDResults
+  end
+
+  def assessment
+  end
 end

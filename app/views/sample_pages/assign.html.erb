@@ -2,6 +2,29 @@
 
 <div class="container-fluid">
 	<div class="row ldashtop">
+		<div class="col-sm-4">
+			<button type="button" class="btn btn-warning" id="dashview1">View- Take Assessment</button>
+		</div>
+		<div class="col-sm-4 col-sm-offset-2">
+			<button type="button" class="btn btn-warning" id="dashview2">View- Assessment Taken</button>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid" id="assessmentNotTaken">
+	<div class="row ldashtop">
+		<div class="col-sm-5">
+			<p>CNA Assessment</p>
+		</div>
+		
+		<div class="col-sm-5 col-sm-offset-2">
+			<button type="button" class="btn btn-warning"><%= link_to("Take Assessment", sample_pages_assessment_path) %></button>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid" id="assessmentTaken">
+	<div class="row ldashtop">
 		<div class="col-sm-12">
 			<h3>Overall Role Competency</h3>
 		</div>
@@ -67,3 +90,5 @@
 			</p>
 		</div>
 </div>
+
+
