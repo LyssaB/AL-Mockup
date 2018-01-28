@@ -1,2 +1,12 @@
 <h2>Course</h2>
-<%= image_tag("ucpd.jpg", class: "img-responsive")%>
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-sm-12">
+			<%= image_tag("ucpd.jpg", class: "img-responsive")%>
+		</div>
+		<div class="col-sm-3 col-sm-offset-2">
+			<button type="button" class="btn btn-warning"><%= link_to("Assessment", sample_pages_assessment_path)%></button>
+	</div>
+</div>
+
