@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'admin_views/userReport'
+
   get 'admin_views/aManage'
 
   get 'sample_pages/assessment'
